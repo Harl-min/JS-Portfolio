@@ -1,16 +1,16 @@
 const text1_options = [
-    "Why art is so important",
-    "Why you shouldn't buy the new iPhone",
-    "Is life actually real?",
-    "How to learn JS in 2 months"
+    "Food Delivery Mobile APP Design",
+    "Web Design",
+    "E-commerce Angular JS",
+    "Car Sales Website"
   ];
   const text2_options = [
-    "69 min. read",
-    "7 min. read",
-    "8 min. read",
-    "87,658.1277 min. read"
+    "Recently Updated",
+    "Updated 2 years ago",
+    "Updated 1 year ago",
+    "Updated 2 months ago"
   ];
-  const color_options = ["#EBB9D2", "#FE9968", "#7FE0EB", "#6CE5B1"];
+  const color_options = ["#1F1F1F"];
   const image_options = [
     "https://images.unsplash.com/photo-1524721696987-b9527df9e512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80",
     "https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",

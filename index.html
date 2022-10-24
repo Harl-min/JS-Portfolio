@@ -12,6 +12,9 @@
 <body>
     <!-- START NAVIGATION -->
     <div class="navbar">
+      <div class="logo">
+        <img src="https://pin.it/66ZudR7" alt="">
+      </div>
 			<nav class="smoothScroll">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" >
              <li class="nav-item" role="presentation">
@@ -151,15 +154,15 @@
       <h2 class="title">My <br><strong> Master Piece Collection</strong></h2>						
     </div>
 				<div class="col-md-6 col-sm-6">					
-					<div class="tab-titles">
-            <p class="tab-links active-link" onclick="opentab('skills')">All</p>
-            <p class="tab-links" onclick="opentab('experience')">Mobile Design</p>
-            <p class="tab-links" onclick="opentab('education')">Web</p>
+					<div class="collection-titles">
+            <p class="collection-links active-link" onclick="opencontent('carousel-wrapper')">All</p>
+            <p class="collection-links" onclick="opencontent('mobile')">Mobile Design</p>
+            <p class="collection-links" onclick="opencontent('web')">Web</p>
           </div>
         </div>
       </div>
 
-      <div id="carousel-wrapper">
+      <div id="carousel-wrapper"  class="coll-contents active-content">
         <div id="menu">
             <div id="current-option">
               <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
@@ -171,10 +174,10 @@
         <div id="image"></div>
       </div>
 
-  <div class="card-columns">
+  <div class="coll-contents card-columns" id="mobile">
     <div class="row">
 
-      <div class="col-lg-4 col-12">
+      <!-- <div class="col-lg-4 col-12">
         <div class="card">
           <img class="card-img-top" src="../ultra/images/portfolio-img.jpg" alt="Card image cap">
           <div class="card-body">
@@ -183,9 +186,9 @@
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-lg-8 col-md-12 col-12">
+      <!-- <div class="col-lg-8 col-md-12 col-12">
     <div class="card p-5">
       <blockquote class="blockquote mb-0 card-body">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -197,9 +200,9 @@
       </blockquote>
     </div>
   </div>
-  
+   -->
 
-  <div class="col-lg-4 col-md-6 col-6">
+  <!-- <div class="col-lg-4 col-md-6 col-6">
     <div class="card bg-primary text-white text-center p-3">
       <blockquote class="blockquote mb-0">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
@@ -210,8 +213,8 @@
         </footer>
       </blockquote>
     </div>
-  </div>
-
+  </div> -->
+<!-- 
   <div class="col-lg-4 col-md-6 col-6">
     <div class="card text-center">
       <div class="card-body">
@@ -220,9 +223,9 @@
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
-  </div>
+  </div> -->
 
-    <div class="col-lg-4 col-md-6 col-12">
+    <!-- <div class="coll-contents col-lg-4 col-md-6 col-12" id="web">
     <div class="card">
       <img class="card-img" src="../ultra/images/portfolio-img.jpg" alt="Card image">
     </div>
@@ -236,9 +239,9 @@
         </footer>
       </blockquote>
     </div>
-  </div>
+  </div> -->
 
-    <div class="col-lg-8 col-md-8 col-12">
+    <!-- <div class="col-lg-8 col-md-8 col-12">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -246,14 +249,14 @@
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
-  </div>
+  </div> -->
   </div>
   </div>
 </section>
   <!-- END PORTFOLIO -->
 
   <!-- START ABOUT -->
-	<section id="about" class="tm-about">
+	<!-- <section id="about" class="tm-about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7">
@@ -265,7 +268,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- END ABOUT -->
 
   <!-- START CONTACT -->
@@ -278,8 +281,20 @@
 					</div>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
           <div class="contact-btn">
-            <button><a href="./signin.html">Contact</a></button>
+            <button><a href="./signin.html">Social</a></button>
           </div>
+          <div class="share">
+            <i class="fa fa-plus"></i>
+          </div>
+            <div class="one">
+              <i class="fa fa-facebook"></i>
+            </div>
+            <div class="two">
+              <i class="fa fa-twitter"></i>
+            </div>
+            <div class="three">
+              <i class="fa fa-instagram"></i>
+            </div>
         </div>
 			</div>
 		</div>
