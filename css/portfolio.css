@@ -16,18 +16,18 @@ html {
 }
 
 .logo {
-  font-size: 2.5rem;
-  background: red;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  float: left;
 }
 
 .navbar {
+  padding: 0px 40px;
+  background-color: black;
+  color: azure;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--dark-color);
-  padding: 1rem 2rem;
+}
+
+.navbar .smoothScroll {
+  margin-top: 10px;
 }
 
 nav ul li .nav-link{ 
@@ -613,6 +613,10 @@ input { height: 50px; }
 box-shadow: 0px 3px 9px rgba(0,0,0,.5);
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
+}
+
+.share i {
+  width: 80px;
 }
 
 .share:hover{
